@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.home__container {
+    row-gap: 7rem;
+}
+
 .home__social {
     display: grid;
     grid-template-columns: max-content;

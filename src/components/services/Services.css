@@ -24,7 +24,7 @@
     margin-bottom: var(--mb-1);
 }
 
-.services__buton {
+.services__button {
     color: var(--title-color);
     font-size: var(--small-font-size);
     display: inline-flex;
@@ -38,6 +38,10 @@
     transition: 0.3s;
 }
 
+.services__button:hover .services__button-icon {
+    transform: translateX(00.25rem);
+}
+
 .services__modal {
-    display: none;
+    position: fixed;
 }

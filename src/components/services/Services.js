@@ -9,7 +9,7 @@ const Services = () => {
 
   //   declaration of functions
   return (
-    <section>
+    <section id="services">
       <h2 className="section__title">Services</h2>
       <span className="section__subtitle">My introduction</span>
 

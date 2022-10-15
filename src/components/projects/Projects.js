@@ -1,5 +1,7 @@
 import React from "react";
-
+import { motion } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+// imports happen above
 const Projects = () => {
   return (
     <section className="projects container section">

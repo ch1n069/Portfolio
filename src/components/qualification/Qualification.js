@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Qualification.css";
 
 const Qualification = () => {
-  const [experiences, setExperiences] = useState(0);
+  const [experiences, setExperiences] = useState(1);
 
   const experienceHandler = (index) => {
     setExperiences(index);
@@ -17,8 +17,11 @@ const Qualification = () => {
       <div className="qualification__container container">
         <div className="qualification__tabs">
           <div
+            onClick={() => {
+              experienceHandler(1);
+            }}
             className={
-              experiences
+              experiences === 1
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
@@ -26,13 +29,28 @@ const Qualification = () => {
             <i className="uil uil-graduation-cap"></i>
             {""}Education
           </div>
-          <div className="qualification__button button--flex">
+          <div
+            onClick={() => {
+              experienceHandler(2);
+            }}
+            className={
+              experiences === 2
+                ? "qualification__button qualification__active button--flex"
+                : "qualification__button button--flex"
+            }
+          >
             <i className="uil uil-graduation-cap"></i>
             {""}Experience
           </div>
         </div>
         <div className="qualification__sections">
-          <div className="qualification__content qualification__content-active">
+          <div
+            className={
+              experiences === 1
+                ? "qualification__content qualification__content-active"
+                : "qualification__content"
+            }
+          >
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Web developers</h3>
@@ -93,10 +111,16 @@ const Qualification = () => {
               </div>
             </div>
           </div>
-          <div className="qualification__content">
+          <div
+            className={
+              experiences === 2
+                ? "qualification__content qualification__content-active"
+                : "qualification__content"
+            }
+          >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web developers</h3>
+                <h3 className="qualification__title"> developers</h3>
                 <span className="qualification__subtitle">moringa school</span>
                 <div className="qualification__calendar">
                   <div className="uil uil-calendar-alt">2021 -present</div>

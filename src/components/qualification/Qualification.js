@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Qualification.css";
 
 const Qualification = () => {
+  const [experiences, setExperiences] = useState(0);
+
+  const experienceHandler = (index) => {
+    setExperiences(index);
+  };
+
+  // functions go here
   return (
     <section className="qualification section">
       <h2 className="section__title">Qualifications</h2>
@@ -9,7 +16,13 @@ const Qualification = () => {
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
-          <div className="qualification__button qualification__active button--flex">
+          <div
+            className={
+              experiences
+                ? "qualification__button qualification__active button--flex"
+                : "qualification__button button--flex"
+            }
+          >
             <i className="uil uil-graduation-cap"></i>
             {""}Education
           </div>

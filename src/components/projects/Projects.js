@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 // import { motion } from "framer-motion";
-import {motion}
+import { motion } from "framer-motion";
 // import { useEffect, useRef, useState } from "react";
 // imports happen above
 const Projects = () => {
@@ -10,6 +10,9 @@ const Projects = () => {
       <span className="section__subtitle">
         Drag to scroll through projects{" "}
       </span>
+      <motion.div className="carousel">
+        <motion.div className="inner-carousel"></motion.div>
+      </motion.div>
     </section>
   );
 };

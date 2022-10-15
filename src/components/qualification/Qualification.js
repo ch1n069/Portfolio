@@ -15,11 +15,13 @@ const Qualification = () => {
           </div>
         </div>
         <div className="qualification__Sections">
-          <div className="qualification__content">
+          <div className="qualification__content qualification__content-active">
             <div className="qualification__data">
               <div></div>
               <div>
-                <h4 className="quailification__title"></h4>
+                <h4 className="quailification__title">
+                  Fullstack web developer
+                </h4>
                 <span className="qualification__subtitle">Kenya</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt">2021-present</i>
@@ -27,13 +29,85 @@ const Qualification = () => {
               </div>
               <div>
                 <span className="qualification__rounder"></span>
-                <div className="qualification__line"></div>
+                <span className="qualification__line"></span>
               </div>
             </div>
             <div className="qualification__data">
               <div></div>
               <div>
-                <h4 className="quailification__title"></h4>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h4 className="quailification__title">
+                  Fullstack web developer
+                </h4>
+                <span className="qualification__subtitle">Kenya</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt">2021-present</i>
+                </div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h4 className="quailification__title">
+                  Fullstack web developer
+                </h4>
+                <span className="qualification__subtitle">Kenya</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt">2021-present</i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="qualification__content">
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <h4 className="quailification__title">
+                  Fullstack web developer
+                </h4>
+                <span className="qualification__subtitle">Kenya</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt">2021-present</i>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h4 className="quailification__title">
+                  Fullstack web developer
+                </h4>
+                <span className="qualification__subtitle">Kenya</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt">2021-present</i>
+                </div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h4 className="quailification__title">
+                  Fullstack web developer
+                </h4>
                 <span className="qualification__subtitle">Kenya</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt">2021-present</i>

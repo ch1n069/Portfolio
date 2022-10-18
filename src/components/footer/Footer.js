@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css";
 
 // imports happen above
 const Footer = () => {
@@ -22,17 +23,21 @@ const Footer = () => {
           </li>
         </ul>
         <div className="footer__social">
-          <a href="34" className="home__social-icon" target="_blank">
+          <a href="34" className="footer__social-link" target="_blank">
             <i class="uil uil-instagram"></i>
           </a>
 
-          <a href="34" className="home__social-icon" target="_blank">
+          <a href="34" className="footer__social-link" target="_blank">
             <i class="uil uil-dribble"></i>
           </a>
-          <a href="34" className="home__social-icon" target="_blank">
+          <a href="34" className="footer__social-link" target="_blank">
             <i class="uil uil-github-alt"></i>
           </a>
         </div>
+        <span className="footer__copy">
+          {" "}
+          &#169; 2022 Created with love by Bruno Gatiba
+        </span>
       </div>
     </footer>
   );

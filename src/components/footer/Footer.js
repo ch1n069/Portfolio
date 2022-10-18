@@ -28,10 +28,10 @@ const Footer = () => {
           </a>
 
           <a href="34" className="footer__social-link" target="_blank">
-            <i class="uil uil-dribble"></i>
+            <i class="bx bxl-linkedin-square"></i>
           </a>
           <a href="34" className="footer__social-link" target="_blank">
-            <i class="uil uil-github-alt"></i>
+            <i class="bx bxl-github"></i>
           </a>
         </div>
         <span className="footer__copy">

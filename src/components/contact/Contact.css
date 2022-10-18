@@ -1,0 +1,18 @@
+.contact__container {
+    grid-template-columns: repeat(1, max-content);
+    justify-content: center;
+}
+
+.contact__info {
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 300px;
+}
+
+.contact__card {
+    background-color: var(--container-color);
+    border: 1 px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    text-align: center;
+}

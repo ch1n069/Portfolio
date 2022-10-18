@@ -58,12 +58,28 @@
 
 /* For large devices */
 
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+    .contact__container {
+        column-gap: 3rem;
+    }
+}
 
 
 /* For medium devices */
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+        display: inline;
+        row-gap: 3rem;
+    }
+    .contact__info {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
 
 @media screen and (max-width: 576px) {}
 

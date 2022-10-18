@@ -11,12 +11,12 @@ const Contact = () => {
           <h3 className="contact__title">Talk to me</h3>
         </div>
         <div className="contact__info">
-          <div className="contact__card">
+          {/* <div className="contact__card">
             <i className="bx contact__card-icon"></i>
             <h3 className="contact__card-title"></h3>
             <span className="contact__card-data"></span>
             <a href="" className="contact__button"></a>
-          </div>
+          </div> */}
           <div className="contact__card">
             <i className="bx bx-mail-send contact__card-icon"></i>
             <h3 className="contact__card-title">Email</h3>
@@ -31,14 +31,23 @@ const Contact = () => {
             </a>
           </div>
           <div className="contact__card">
-            <i className="bx bx-linkedin-square contact__card-icon"></i>
+            <i className="bx bxl-linkedin contact__card-icon"></i>
             <h3 className="contact__card-title">Linkedin</h3>
             <span className="contact__card-data">Bruno Gatiba</span>
             <a
               href="https://www.linkedin.com/in/bruno-gatiba-b8bb6b182/"
               className="contact__button"
             >
-              Let's connet
+              Let's connect
+            </a>
+          </div>
+          <div className="contact__card">
+            <i className="bx bxl-github contact__card-icon"></i>
+            <h3 className="contact__card-title">Github</h3>
+            <span className="contact__card-data">Bruno Gatiba</span>
+            <a href="https://github.com/ch1n069" className="contact__button">
+              View github
+              <i class="bx bx-right-arrow-alt arrow"></i>
             </a>
           </div>
         </div>

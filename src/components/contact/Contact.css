@@ -22,6 +22,11 @@
     font-size: var(--small-font-size);
 }
 
+.arrow {
+    font-size: 20px;
+    color: var(--title-color);
+}
+
 .contact__card-title {
     font-weight: var(--font-medium);
 }

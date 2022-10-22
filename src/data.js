@@ -8,8 +8,8 @@ import image6 from "./assets/p6.jpg";
 const projects = [
   {
     imageUrl: image1,
-    title: "test title",
-    desc: "this 1 the desc",
+    title: "Awwards website",
+    desc: "This is a web application where users submit their best web applications.The submissions are rated on the following merit design , usability and content ",
   },
   {
     imageUrl: image2,

@@ -45,13 +45,13 @@ const Projects = () => {
                   <div className="small-image">
                     <img src={image.imageUrl} alt={image.imageUrl} />
                     <div className="holder-content">
-                      <h2>
+                      <h2 class="project__title">
                         {image.title}
                         {/* <span className="icon">
                           <i class="uil uil-heart-alt project-icon"></i>
                         </span> */}
                       </h2>
-                      <p>{image.desc}</p>
+                      <p className="project-desc">{image.desc}</p>
                     </div>
                   </div>
                 </div>

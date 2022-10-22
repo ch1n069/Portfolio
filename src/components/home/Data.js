@@ -6,8 +6,7 @@ const data = () => {
       <h1 className="home__title">Bruno Gatiba</h1>
       <h3 className="home__subtitle">Fullstack webdeveloper</h3>
       <p className="home__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nihil
-        iure officia id sint aliquid rem magni ipsa quam provident.
+        I am Full-stack web developer based in Nairobi kenya
       </p>
       <a href="#contact" className="button button--flex">
         Say hello

@@ -10,17 +10,20 @@ const About = () => {
   return (
     <section className="about about section" id="about">
       <h2 className="section__title">About me</h2>
-      <span className="section__subtitle">My introduction</span>
+      <span className="section__subtitle">acerca demi</span>
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
 
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique
-            dicta asperiores dolore temporibus deserunt ad inventore alias
-            mollitia voluptatem voluptate! Voluptatum accusantium molestiae
-            recusandae, fugiat ipsam suscipit!
+            I'am an experienced full-stack Software Developer with a
+            demonstrated history of working and adapting to the latest software
+            development trends in the industry to achieve cutting edge software
+            solutions. <br />I am also a deep thinker with strong communication
+            skills , an innovators mindset and problem solving skills providing
+            in-depth evaluation and analysis of unique complex technological
+            issues .
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV{" "}

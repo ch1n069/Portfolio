@@ -1,9 +1,9 @@
 import image1 from "./assets/test.jpg";
-import image2 from "./assets/p2.jpg";
-import image3 from "./assets/p3.jpg";
-import image4 from "./assets/p4.jpg";
-import image5 from "./assets/p5.jpg";
-import image6 from "./assets/p6.jpg";
+import image2 from "./assets/test2.jpg";
+import image3 from "./assets/test3.jpg";
+import image4 from "./assets/test4.jpg";
+import image5 from "./assets/test5.jpg";
+import image6 from "./assets/test6.jpg";
 
 const projects = [
   {
@@ -13,28 +13,28 @@ const projects = [
   },
   {
     imageUrl: image2,
-    title: "test title",
-    desc: "this 2 the desc",
+    title: "Pitch Na sisi",
+    desc: "Its  a web application linking startups to investors .Investor on the platform then invest in the most vaible idea",
   },
   {
     imageUrl: image3,
-    title: "test title",
-    desc: "this 3 the desc",
+    title: "Git search",
+    desc: "Its an application where users can search for their desired users on github. With the application you can also search for projects based on the technology used.",
   },
   {
     imageUrl: image4,
-    title: "test title",
-    desc: "this 4 the desc",
+    title: "Photo app",
+    desc: "This is an online photo library , where users sign-up to create an account after creating the account users can then  upload their best photo memories to be stored online. ",
   },
   {
     imageUrl: image5,
-    title: "test title",
-    desc: "this 5 the desc",
+    title: "Designer Quotes",
+    desc: "A platform where people get to share insightful quotes that have impacted them positively and also view other quotes that are on the application.",
   },
   {
     imageUrl: image6,
-    title: "test title",
-    desc: "this 6 the desc",
+    title: "Akan Name generator",
+    desc: "A web application where users can generate a ghanian african name . All they have to do is  enter the  dates there were born and viola a name is generated for them ",
   },
 ];
 

@@ -58,7 +58,7 @@
 }
 
 .home__img {
-    background: url("https://images.pexels.com/photos/9869646/pexels-photo-9869646.jpeg?auto=compress&cs=tinysrgb&w=800");
+    background: url("../../assets/brunos.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

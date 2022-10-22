@@ -3,6 +3,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import images from "../../Images";
 import "./Projects.css";
+import CardImage from "../UI/CardImage";
+import projects from "../../data";
 
 // import { useEffect, useRef, useState } from "react";
 // imports happen above
@@ -36,10 +38,10 @@ const Projects = () => {
           dragConstraints={{ right: 0, left: -width }}
           className="inner-carousel slider"
         >
-          {images.map((image) => {
+          {projects.map((image) => {
             return (
               <motion.div className="item">
-                <img src={image} alt={image} />;
+                <div className="project-holder"></div>
               </motion.div>
             );
           })}

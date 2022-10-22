@@ -4,6 +4,11 @@
     padding: 3px;
 }
 
+.project-holder {
+    height: 400px;
+    width: 300px;
+}
+
 
 /* .slider {
     margin: 0 20%;

@@ -128,7 +128,7 @@ const Qualification = () => {
                   {" "}
                   Software Developer Consultant
                 </h3>
-                <span className="qualification__subtitle">moringa school</span>
+                <span className="qualification__subtitle">Self Employed</span>
                 <div className="qualification__calendar">
                   <div className="uil uil-calendar-alt">2021 -present</div>
                 </div>
@@ -147,20 +147,24 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Web developers</h3>
-                <span className="qualification__subtitle">moringa school</span>
+                <h3 className="qualification__title">Software Engineer</h3>
+                <span className="qualification__subtitle">
+                  Noba tech (Part Time)
+                </span>
                 <div className="qualification__calendar">
-                  <div className="uil uil-calendar-alt">2021 -present</div>
+                  <div className="uil uil-calendar-alt">2021 - 2022</div>
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web developers</h3>
-                <span className="qualification__subtitle">moringa school</span>
+                <h3 className="qualification__title">Farmer Loaning app</h3>
+                <span className="qualification__subtitle">
+                  Personal - Project
+                </span>
                 <div className="qualification__calendar">
-                  <div className="uil uil-calendar-alt">2021 -present</div>
+                  <div className="uil uil-calendar-alt">2022 - Completed</div>
                 </div>
               </div>
               <div>

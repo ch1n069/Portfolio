@@ -44,7 +44,15 @@ const Projects = () => {
                 <div className="project-holder">
                   <div className="small-image">
                     <img src={image.imageUrl} alt={image.imageUrl} />
-                    <h2>{image.title}</h2>
+                    <div className="holder-content">
+                      <h2>
+                        {image.title}
+                        {/* <span className="icon">
+                          <i class="uil uil-heart-alt project-icon"></i>
+                        </span> */}
+                      </h2>
+                      <p>{image.desc}</p>
+                    </div>
                   </div>
                 </div>
               </motion.div>

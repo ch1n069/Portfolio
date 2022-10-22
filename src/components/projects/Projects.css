@@ -17,6 +17,18 @@
     height: 210px;
 }
 
+.holder-content {
+    margin-left: 20px;
+}
+
+.project-icon {
+    font-size: 19px;
+}
+
+.icon {
+    float: right;
+}
+
 
 /* .slider {
     margin: 0 20%;

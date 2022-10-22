@@ -1,5 +1,5 @@
 # Project screenshot
-![Uploading Screenshot 2022-10-22 at 16.58.10.png…]()
+<img width="1185" alt="Screenshot 2022-10-22 at 16 58 10" src="https://user-images.githubusercontent.com/82473156/197343244-2f82b9a8-ea98-4c15-a5f8-b8eea24acb7f.png">
 
 
 # Getting Started with Create React App

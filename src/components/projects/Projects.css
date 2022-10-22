@@ -7,6 +7,14 @@
 .project-holder {
     height: 400px;
     width: 300px;
+    /* border: 1px solid #ccc; */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    background-color: var(--container-color);
+}
+
+.small-image {
+    height: 210px;
 }
 
 

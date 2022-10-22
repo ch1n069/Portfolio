@@ -41,7 +41,12 @@ const Projects = () => {
           {projects.map((image) => {
             return (
               <motion.div className="item">
-                <div className="project-holder"></div>
+                <div className="project-holder">
+                  <div className="small-image">
+                    <img src={image.imageUrl} alt={image.imageUrl} />
+                    <h2>{image.title}</h2>
+                  </div>
+                </div>
               </motion.div>
             );
           })}

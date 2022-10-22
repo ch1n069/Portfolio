@@ -180,13 +180,13 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
 
-              <div>
+              {/* <div>
                 <h3 className="qualification__title">Web developers</h3>
                 <span className="qualification__subtitle">moringa school</span>
                 <div className="qualification__calendar">
                   <div className="uil uil-calendar-alt">2021 -present</div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -1,9 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 // import { motion } from "framer-motion";
 import { motion } from "framer-motion";
-import images from "../../Images";
 import "./Projects.css";
-import CardImage from "../UI/CardImage";
 import projects from "../../data";
 
 // import { useEffect, useRef, useState } from "react";

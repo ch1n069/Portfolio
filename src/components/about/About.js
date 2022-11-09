@@ -8,7 +8,7 @@ import "./About.css";
 // all imports happen above
 const About = () => {
   return (
-    <section className="about about section" id="about">
+    <section className="about about section" id="about_me">
       <h2 className="section__title">About me</h2>
       <span className="section__subtitle">acerca demi</span>
       <div className="about__container container grid">

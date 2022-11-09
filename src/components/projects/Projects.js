@@ -20,7 +20,7 @@ const Projects = () => {
 
   // creating of functions
   return (
-    <section className="projects container section">
+    <section id="projects" className="projects container section">
       <h2 className="section__title">Projects</h2>
       <span className="section__subtitle">
         Drag to scroll through projects{" "}

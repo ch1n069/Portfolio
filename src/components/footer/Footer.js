@@ -23,9 +23,6 @@ const Footer = () => {
               Projects
             </a>
           </li>
-          <li>
-            <a href="" className="footer__link"></a>
-          </li>
         </ul>
         <div className="footer__social">
           <a href="34" className="footer__social-link" target="_blank">

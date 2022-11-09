@@ -16,10 +16,10 @@ const Services = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
+            <i class="uil uil-icons services__icon"></i>
             <h3 className="services__title">
-              Product <br />
-              Design
+              UI/UX <br />
+              Wire framing
             </h3>
           </div>
           <span
@@ -47,31 +47,26 @@ const Services = () => {
               ></i>
 
               <h3 className="services__modal-title">
-                {" "}
-                Product <br />
-                Design
+                UI
+                <br />
+                UX
               </h3>
               <p className="services__modal-description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Obcaecati, explicabo!
+                Human Centered Designs for your projects
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  </p>
+                  <p className="services__modal-info">Human centered designs</p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">Iterative Designs</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    User friendly interfaces
                   </p>
                 </li>
               </ul>
@@ -80,16 +75,16 @@ const Services = () => {
         </div>
         <div className="services__content">
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
+            <i class="uil uil-mobile-android services__icon"></i>
             <h3 className="services__title">
-              Product <br />
-              Design
+              Cross platform <br />
+              Experience
             </h3>
           </div>
           <span
             className="services__button"
             onClick={() => {
-              modalHandler(1);
+              modalHandler(2);
             }}
           >
             {" "}
@@ -99,7 +94,7 @@ const Services = () => {
 
           <div
             className={
-              modal === 1 ? "services__modal active-modal" : "services__modal"
+              modal === 2 ? "services__modal active-modal" : "services__modal"
             }
           >
             <div className="services__modal-content">
@@ -112,30 +107,29 @@ const Services = () => {
 
               <h3 className="services__modal-title">
                 {" "}
-                Product <br />
-                Design
+                Cross platform <br />
+                Experience
               </h3>
               <p className="services__modal-description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Obcaecati, explicabo!
+                Move together with your users across devices
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Seamless experience across multiple devices
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Users get to engage with services on the move
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Engaging user experience
                   </p>
                 </li>
               </ul>
@@ -145,7 +139,7 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
+            <i class="uil uil-lightbulb-alt services__icon"></i>
             <h3 className="services__title">
               Product <br />
               Design
@@ -154,7 +148,7 @@ const Services = () => {
           <span
             className="services__button"
             onClick={() => {
-              modalHandler(1);
+              modalHandler(3);
             }}
           >
             {" "}
@@ -164,7 +158,7 @@ const Services = () => {
 
           <div
             className={
-              modal === 1 ? "services__modal active-modal" : "services__modal"
+              modal === 3 ? "services__modal active-modal" : "services__modal"
             }
           >
             <div className="services__modal-content">
@@ -175,32 +169,32 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">
+              <h3 className="services__modal-title text-center">
                 {" "}
                 Product <br />
                 Design
               </h3>
               <p className="services__modal-description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Obcaecati, explicabo!
+                - I take product design process to heart
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Extensive research on the target market for the said product
+                    .
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Design a tailor made solution for the problem at hand .
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Launch and implement the product
                   </p>
                 </li>
               </ul>

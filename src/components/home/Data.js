@@ -6,8 +6,9 @@ const data = () => {
       <h1 className="home__title">Bruno Gatiba</h1>
       <h3 className="home__subtitle">Software Engineer</h3>
       <p className="home__description">
-        I am full-stack web developer based in Nairobi kenya . With 1year
-        experience in developing web applications.
+        I am full-stack web developer based in Nairobi kenya , with 2years
+        experience in developing web applications with an avid attention to
+        details .
       </p>
       <a href="#contact" className="button button--flex">
         Say hello

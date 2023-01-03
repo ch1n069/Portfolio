@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         <span className="footer__copy">
           {" "}
-          &#169; 2022 Created with love by Bruno Gatiba
+          &#169; 2023 Created with love by Bruno Gatiba
         </span>
       </div>
     </footer>

@@ -1,16 +1,30 @@
 import React, { useState } from "react";
 import "./Header.css";
+import Toggle from "react-toggle";
 
 const Header = () => {
   // ====== toggle menu
   const [Toggle, setToggle] = useState(false);
+  const [isDark, setIsDark] = useState(true);
+
+  // used to set dark
+  const darkModeToggle = () => {
+    return (
+      <Toggle
+        checked={isDark}
+        onChange={({ target }) => setIsDark(target.checked)}
+        icons={{ checked: "🌙", unchecked: "🔆" }}
+        aria-label="Dark mode toggle"
+      />
+    );
+  };
+
   return (
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
           Bruno
         </a>
-
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
@@ -43,6 +57,7 @@ const Header = () => {
                 <i className="uil uil-message nav__icon"></i>Contact
               </a>
             </li>
+            <li className="nav__item"></li>
           </ul>
           <i
             class="uil uil-times nav__close"

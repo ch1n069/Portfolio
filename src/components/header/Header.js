@@ -8,16 +8,16 @@ const Header = () => {
   const [isDark, setIsDark] = useState(true);
 
   // used to set dark
-  const darkModeToggle = () => {
-    return (
-      <Toggle
-        checked={isDark}
-        onChange={({ target }) => setIsDark(target.checked)}
-        icons={{ checked: "🌙", unchecked: "🔆" }}
-        aria-label="Dark mode toggle"
-      />
-    );
-  };
+  // const darkModeToggle = () => {
+  //   return (
+  //     <Toggle
+  //       checked={isDark}
+  //       onChange={({ target }) => setIsDark(target.checked)}
+  //       icons={{ checked: "🌙", unchecked: "🔆" }}
+  //       aria-label="Dark mode toggle"
+  //     />
+  //   );
+  // };
 
   return (
     <header className="header">

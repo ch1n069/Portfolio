@@ -78,7 +78,7 @@ const Qualification = () => {
                   Jomo Kenyatta University{" "}
                 </span>
                 <div className="qualification__calendar">
-                  <div className="uil uil-calendar-alt">2020 -Completed</div>
+                  <div className="uil uil-calendar-alt">Completed</div>
                 </div>
               </div>
             </div>

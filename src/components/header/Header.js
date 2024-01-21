@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./Header.css";
-import Toggle from "react-toggle";
+// import Toggle from "react-toggle";
 
 const Header = () => {
   // ====== toggle menu
   const [Toggle, setToggle] = useState(false);
-  const [isDark, setIsDark] = useState(true);
+  // const [isDark, setIsDark] = useState(true);
 
   // used to set dark
   // const darkModeToggle = () => {

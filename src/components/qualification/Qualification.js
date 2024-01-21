@@ -56,7 +56,9 @@ const Qualification = () => {
                 <h3 className="qualification__title">Software Engineering</h3>
                 <span className="qualification__subtitle">Moringa school</span>
                 <div className="qualification__calendar">
-                  <div className="uil uil-calendar-alt">2022 - Completed</div>
+                  <div className="uil uil-calendar-alt">
+                    &nbsp; 2022 - Completed
+                  </div>
                 </div>
               </div>
               <div>
@@ -78,7 +80,7 @@ const Qualification = () => {
                   Jomo Kenyatta University{" "}
                 </span>
                 <div className="qualification__calendar">
-                  <div className="uil uil-calendar-alt">Completed</div>
+                  <div className="uil uil-calendar-alt"> &nbsp;Completed</div>
                 </div>
               </div>
             </div>
@@ -90,7 +92,9 @@ const Qualification = () => {
                   Jomo Kenyatta University
                 </span>
                 <div className="qualification__calendar">
-                  <div className="uil uil-calendar-alt">2017 - completed</div>
+                  <div className="uil uil-calendar-alt">
+                    &nbsp; 2017 - completed
+                  </div>
                 </div>
               </div>
               <div>
@@ -110,7 +114,9 @@ const Qualification = () => {
                 <h3 className="qualification__title">Design</h3>
                 <span className="qualification__subtitle">Online</span>
                 <div className="qualification__calendar">
-                  <div className="uil uil-calendar-alt">2021 -Completed</div>
+                  <div className="uil uil-calendar-alt">
+                    &nbsp; 2021 -Completed
+                  </div>
                 </div>
               </div>
             </div>
@@ -129,7 +135,10 @@ const Qualification = () => {
                   SIEC pvt ltd - Remote
                 </span>
                 <div className="qualification__calendar">
-                  <div className="uil uil-calendar-alt">2023 - Present</div>
+                  <div className="uil uil-calendar-alt">
+                    {" "}
+                    &nbsp;2023 - Present
+                  </div>
                 </div>
               </div>
               <div>
@@ -151,7 +160,7 @@ const Qualification = () => {
                   Bring Back Australia - Remote
                 </span>
                 <div className="qualification__calendar">
-                  <div className="uil uil-calendar-alt">2021 - 2022</div>
+                  <div className="uil uil-calendar-alt"> &nbsp;2021 - 2022</div>
                 </div>
               </div>
             </div>
@@ -163,7 +172,7 @@ const Qualification = () => {
                 </h3>
                 <span className="qualification__subtitle">contract</span>
                 <div className="qualification__calendar">
-                  <div className="uil uil-calendar-alt">2021 -2022</div>
+                  <div className="uil uil-calendar-alt">&nbsp; 2021 -2022</div>
                 </div>
               </div>
               <div>
@@ -186,7 +195,7 @@ const Qualification = () => {
                   Noba tech (Part Time)
                 </span>
                 <div className="qualification__calendar">
-                  <div className="uil uil-calendar-alt">2021 - 2022</div>
+                  <div className="uil uil-calendar-alt"> &nbsp;2021 - 2022</div>
                 </div>
               </div>
             </div>
@@ -198,7 +207,10 @@ const Qualification = () => {
                   Personal - Project
                 </span>
                 <div className="qualification__calendar">
-                  <div className="uil uil-calendar-alt">2022 - Completed</div>
+                  <div className="uil uil-calendar-alt">
+                    {" "}
+                    &nbsp;2022 - Completed
+                  </div>
                 </div>
               </div>
               <div>

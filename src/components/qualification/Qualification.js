@@ -132,7 +132,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title"> Software Developer</h3>
                 <span className="qualification__subtitle">
-                  SIEC pvt ltd - Remote
+                  SIEC pvt ltd - Australia - Remote
                 </span>
                 <div className="qualification__calendar">
                   <div className="uil uil-calendar-alt">
@@ -157,7 +157,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Software Developer</h3>
                 <span className="qualification__subtitle">
-                  Bring Back Australia - Remote
+                  Bring Back Australia - Australia - Remote
                 </span>
                 <div className="qualification__calendar">
                   <div className="uil uil-calendar-alt"> &nbsp;2021 - 2022</div>

@@ -126,15 +126,33 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title"> Software Developer</h3>
                 <span className="qualification__subtitle">
-                  Bring Back Australia - Remote
+                  SIEC pvt ltd - Remote
                 </span>
                 <div className="qualification__calendar">
-                  <div className="uil uil-calendar-alt">2022 - Present</div>
+                  <div className="uil uil-calendar-alt">2023 - Present</div>
                 </div>
               </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Software Developer</h3>
+                <span className="qualification__subtitle">
+                  Bring Back Australia - Remote
+                </span>
+                <div className="qualification__calendar">
+                  <div className="uil uil-calendar-alt">2021 - 2022</div>
+                </div>
               </div>
             </div>
             <div className="qualification__data">
@@ -153,6 +171,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
+
             <div className="qualification__data">
               <div></div>
 
@@ -186,22 +205,6 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              {/* <div>
-                <h3 className="qualification__title">Web developers</h3>
-                <span className="qualification__subtitle">moringa school</span>
-                <div className="qualification__calendar">
-                  <div className="uil uil-calendar-alt">2021 -present</div>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>

@@ -17,13 +17,13 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            I'am an experienced full-stack Software Developer with a
-            demonstrated history of working and adapting to the latest software
-            development trends in the industry to achieve cutting edge software
-            solutions. <br />I am also a deep thinker with strong communication
-            skills , an innovators mindset and problem solving skills providing
-            in-depth evaluation and analysis of unique complex technological
-            issues .
+            I'm an experienced full-stack Software Developer with a demonstrated
+            history of working and adapting to the latest software development
+            trends in the industry to achieve cutting edge software solutions.{" "}
+            <br />
+            I'm also a deep thinker with strong communication skills , an
+            innovators mindset and problem solving skills providing in-depth
+            evaluation and analysis of unique complex technological issues .
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV{" "}

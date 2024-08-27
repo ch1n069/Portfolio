@@ -20,10 +20,11 @@ const About = () => {
             As a full-stack Software Developer I have a proven track record of
             adapting to the latest industry trends to deliver innovative
             software solutions. <br />
-            My strengths lie in analytical thinking, effective communication,
-            and an unwavering commitment to problem-solving. With an innovative
-            mindset, I excel at providing thorough evaluations and tackling
-            complex technological challenges.
+            My specialized certification in software development, combined with
+            industry expertise, enables me to tackle complex projects with
+            precision and creativity. I bring a strategic, analytical mindset
+            and excellent communication skills to every endeavor, continuously
+            seeking innovation in the face of technological challenges.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV{" "}

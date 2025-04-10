@@ -1,6 +1,6 @@
 import React from "react";
 import AboutImg from "../../assets/portfolio.jpg";
-import CV from "../../assets/Bruno-Gatiba-resume-fullstack.pdf";
+// import CV from "../../assets/Bruno-Gatiba-Resume.pdf";
 import Info from "./Info";
 import "./About.css";
 // import "./About.css ";
@@ -26,7 +26,11 @@ const About = () => {
             and excellent communication skills to every endeavor, continuously
             seeking innovation in the face of technological challenges.
           </p>
-          <a download="" href={CV} className="button button--flex">
+          <a
+            download=""
+            href="/Bruno-Gatiba-Fullstack-developer.pdf"
+            className="button button--flex"
+          >
             Download CV{" "}
             <svg
               class="button__icon"

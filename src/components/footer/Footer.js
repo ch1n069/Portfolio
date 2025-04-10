@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import Moment from "react-moment";
+// import Moment from "react-moment";
 // import "moment-timezone";
 // imports happen above
 const Footer = () => {

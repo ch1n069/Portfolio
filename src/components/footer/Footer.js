@@ -1,8 +1,13 @@
 import React from "react";
 import "./Footer.css";
-
+import Moment from "react-moment";
+// import "moment-timezone";
 // imports happen above
 const Footer = () => {
+  //
+  const date = new Date();
+  const year = date.getFullYear();
+
   return (
     <footer className="footer">
       <div className="footer__container container">
@@ -38,7 +43,7 @@ const Footer = () => {
         </div>
         <span className="footer__copy">
           {" "}
-          &#169; 2024 Created with love by Bruno Gatiba
+          &#169; {year} Created with love by Bruno Gatiba
         </span>
       </div>
     </footer>
